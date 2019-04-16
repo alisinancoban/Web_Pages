@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+        <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+        
+        <title>Movie</title>
+    </head>
+    <body>
+        
+        <div class="top">
+
+        </div>
+
+        <div class="bottom">
+            <div class="add">
+                <div class="add-container">
+                    <input type="text" class="input" placeholder="Movie Name">
+                    <button class="add-btn"><i class="ion-ios-search"></i></button>
+
+                </div>
+            </div>
+            
+            <div class="container clearfix">
+                <div class="movie">
+                    <h2 class="title">Movies</h2>
+                    <div class="movie-list">   
+    
+                    </div>
+                </div>
+            </div>
+        </div>   
+
+		<div id="template" hidden>
+		  <div class="item clearfix" id="_id">
+		    <div class="item-description">
+		      <img src="_src" alt="_alt">
+            </div>
+            <div class="rate">
+                <button class="item-delete-btn">
+                    <i class="ion-ios-close-outline"></i>
+                </button>
+            </div>
+            <div class="item-description aqua">Movie Name:</div>
+            <div class="item-description">_title</div>
+            <div class="rate">_rate</div>
+            <div class="rate aqua">IMDB Rating:</div>
+          </div>
+          
+        </div>
+        
+
+        <script src="assets/js/main.js"></script>
+
+	    <!-- <div id="template2" hidden>
+		<div class="text-center">
+		   <div>Movie Name: _title</div>
+		   <div>
+		     <img srcc="_src" class="poster">
+		   </div>
+		   <div>IMDB Puanı: _rate</div>
+		</div>
+		</div> -->
+    </body>
+</html>
